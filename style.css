@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Futura', serif, sans-serif;
+}
+body {
+    
+    color: #b91010;
+    
+    
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+    background: #164b1a30;
+}
+/* LOGO */
+.logo {
+    font-size: 28px;
+    color: #b0c4aa;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+/* NAVIGATION */
+.navbar a{
+    font-size: 18px;
+    color: #b0c4aa;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .5s;
+}
+.navbar a:hover {
+    color: #fcf9f9;
+}
+
+
+
+/* ABOUT SECTION */
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background: url('view-nature-landscape-with-forest.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.home-content {
+    max-width: 680px;
+}
+.home-content h1 {
+    font-size: 53px;   
+    max-width: 1000px;
+    color: #b0c4aa;
+    line-height: 1;
+    
+}
+.home-content h3 {
+    font-size: 32px;
+    max-width: 680px;
+    color: #ffffff;
+}
+.home-content p {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 20px 0 40px;
+}
+
+
+/* ABOUT SECTION */
+.About-content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background: url('view-nature-landscape-with-forest.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.About-content {
+    max-width: 100%;
+}
+.About-content h1 {
+    font-size: 53px;   
+    max-width: 1000px;
+    color: #b0c4aa;
+    line-height: 1;
+    
+}
+.About-content h3 {
+    font-size: 32px;
+    max-width: 680px;
+    color: #ffffff;
+}
+.About-content p {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 20px 0 40px;
+}
+
+
+
+
+
+  
+
+
+
